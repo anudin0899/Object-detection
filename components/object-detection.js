@@ -53,7 +53,7 @@ const ObjectDetection = () => {
     useEffect(() => {
         runCoco();
         showMyVideo();
-    }, []);
+    }, [runCoco]);
 
 
 
